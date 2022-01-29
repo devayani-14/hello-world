@@ -2,7 +2,7 @@
 using namespace std;
 struct Node{//tree part
     int data; Node *left; Node *right; int height;
-}; Node* root = new Node; 
+}; Node* root = new Node; //yes
 int calheight(struct Node *p){
 
             if(p->left && p->right){
